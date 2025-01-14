@@ -1,0 +1,26 @@
+{
+  "name": "book_record_management",
+  "version": "1.0.0",
+  "description": "API based app to familiarize express,mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev"  : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rekharn0/Book-Record-Management.git"
+  },
+  "author": "Rekha Arunkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rekharn0/Book-Record-Management/issues"
+  },
+  "homepage": "https://github.com/rekharn0/Book-Record-Management#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
