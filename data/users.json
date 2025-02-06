@@ -20,7 +20,7 @@
         "issuedDate": "01/07/2021",
         "returnDate": "01/10/2021",
         "subscriptionType": "Basic",
-        "subscriptionDate": "03/01/2022"
+        "subscriptionDate": "01/07/2021"
       },
       {
         "id": "3",
@@ -28,10 +28,10 @@
         "surname": "Doe",
         "email": "user@email.com",
         "issuedBook": "3",
-        "issuedDate": "01/07/2021",
-        "returnDate": "01/10/2021",
+        "issuedDate": "26/01/2025",
+        "returnDate": "02/05/2025",
         "subscriptionType": "Basic",
-        "subscriptionDate": "01/01/2022"
+        "subscriptionDate": "26/01/2025"
       },
       {
         "id": "4",
