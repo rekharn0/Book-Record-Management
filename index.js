@@ -1,10 +1,14 @@
 const express=require("express");
+const dotEnv=require("dotenv");
+const dbConnection=require("./databaseConnection.js");
 const app=express();
 const PORT = 8081;
 const userRouter=require("./routes/userRoutes.js");
 const bookRouter=require("./routes/bookRoutes");
+const DBConnection = require("./databaseConnection.js");
 app.use(express.json());
-
+dotEnv.config();
+DBConnection();
 /*Base route*/
 app.get("/",(req,res)=>{
     res.status(200).json({

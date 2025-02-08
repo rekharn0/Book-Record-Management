@@ -1,8 +1,9 @@
 const express=require("express");
 const router=express.Router();
-const {books}=require("../data/books.json");
-const {users}=require("../data/users.json");
-//Get all boconsole.log("Inside function:",date);oks information
+// const {books}=require("../data/books.json");
+// const {users}=require("../data/users.json");
+//console.log("Inside function:",date);
+//Get all books information
 router.get("/",(req,res)=>{
     res.status(200).json({
         success:true,
